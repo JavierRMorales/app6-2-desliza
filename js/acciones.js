@@ -1,7 +1,7 @@
 //JavaScript Document
 
 $(document).ready(function(e) {
-    document.addEventListener("deviceready",function(){
+    document.addEventListener ("deviceready",function(){
 		
 		$('#izquierda').on("swipeleft",function(){
 			navigator.notification.alert("Deslizo a la izquierda",function(){"Aplicacion ","Aceptar"});
